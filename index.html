@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UI/UX Designer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <input type="checkbox" id="theme" hidden>
+  <header>
+    <h2>Portfolio</h2>
+    <input type="checkbox" id="burger" hidden>
+    <label for="burger" class="burger">☰</label>
+    <nav>
+      <a href="#cases">Cases</a>
+      <a href="#about">About Me</a>
+      <a href="#prices">Prices</a>
+      <a href="#contacts">Contacts</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="images/me.webp" alt="Photo">
+      <h1>I design interfaces that convert visitors into customers</h1>
+      <a href="#cases" class="cta">View Cases</a>
+    </section>
+
+    <section id="cases" class="grid">
+      <article>
+        <img src="images/p1.webp" alt="Project 1">
+        <span>Mobile App</span>
+        <a href="#">Details</a>
+      </article>
+      <article>
+        <img src="images/p2.webp" alt="Project 2">
+        <span>Website</span>
+        <a href="#">Details</a>
+      </article>
+      <article>
+        <img src="images/p3.webp" alt="Project 3">
+        <span>Dashboard</span>
+        <a href="#">Details</a>
+      </article>
+    </section>
+
+    <section id="contacts">
+      <form>
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="url" placeholder="Link to Technical Specifications" required>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <nav>
+      <a href="https://behance.net">Behance</a>
+      <a href="https://dribbble.com">Dribbble</a>
+    </nav>
+    <p>&copy; 2026 Абсатар Абдулла. All rights reserved.</p>
+    <label for="theme">Dark / Light</label>
+  </footer>
+</body>
+</html>
